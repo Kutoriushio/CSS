@@ -1,0 +1,148 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('fonts/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_code_proregular';
+    src: url('fonts/sourcecodepro-regular-webfont.woff2') format('woff2'),
+         url('fonts/sourcecodepro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
+p,
+li {
+    font-family: 'source_code_proregular', serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h1,
+h2 {
+    font-family: 'kaushan_scriptregular', sans-serif;
+    letter-spacing: 2px;
+}
+
+section p{
+    text-indent : 2rem;
+}
+
+a {
+    outline: none;
+}
+
+a:link {
+    color:red;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:focus {
+    color:blue;
+}
+
+a:hover{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:active {
+    color:aqua;
+}
+
+a[href^="http"] {
+    background: url("external-link-52.png") no-repeat 100% 0;
+    background-size: 1.6rem 1.6rem;
+    padding-right: 1.9rem;
+}
+
+ul, ol {
+    margin: 1.6rem 0;
+}
+
+nav ul {
+    padding-left: 0;
+    margin-top: 0.8rem;
+  }
+  
+  nav li {
+    list-style-type: none;
+    margin-bottom: 2rem;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 2.5rem;
+    border: 1px solid #a66;
+  }
+  
